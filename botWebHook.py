@@ -104,7 +104,7 @@ if __name__ == '__main__':
     # ask the dispatcher to handle the commands just like in discord in Rythm if we say !play
     # it plays that music
     bot = Bot(TOKEN)
-    bot.set_webhook("https://21465d53ff51.ngrok.io/"+TOKEN)
+    bot.set_webhook("https://69d09589ec54.ngrok.io/"+TOKEN)
     dp = Dispatcher(bot, None)
     # If a user sends a msg /start to bot then the will send this # info to start function
     # and give a reply accordingly
