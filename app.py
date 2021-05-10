@@ -103,7 +103,7 @@ def error(bot, update):
 # it plays that music
 bot = Bot(TOKEN)
 try:
-    bot.set_webhook("https://69d09589ec54.ngrok.io/"+TOKEN)
+    bot.set_webhook("https://aqueous-citadel-17101.herokuapp.com/"+TOKEN)
 except Exception as e:
     print(e)
 dp = Dispatcher(bot, None)
